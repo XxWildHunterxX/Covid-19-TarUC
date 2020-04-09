@@ -1,0 +1,236 @@
+﻿.headerPage {
+    background: #fff;
+    border-bottom: 1px solid rgba(0,40,100,.12);
+    padding-bottom: 1rem;
+}
+*{
+    user-select:none;
+}
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+div{
+    display:block;
+}
+body {
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    font-feature-settings: "liga" 0;
+
+}
+.container {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.headerContain {
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+body {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+.header-brand {
+
+    color: inherit;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    font-weight: 600;
+    padding: 0;
+    transition: .3s opacity;
+    line-height: 2rem;
+}
+i {
+    color: black;
+}
+.nav {
+    border-bottom: 1px solid rgba(0,40,100,.12);
+    padding-bottom: 1rem;
+    margin-bottom:30px;
+}
+i:hover{
+    color:orange;
+}
+ul.nav {
+    list-style-type: none;
+}
+.inputStyle {
+    float: right;
+    clear: both;
+    margin-right:20%;
+    margin-top:5px;
+}
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: .75rem;
+    padding-left: .75rem;
+}
+.stamp-md {
+    min-width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.stamp {
+    color: #fff;
+    background: #868e96;
+    display: inline-block;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 .25rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 600;
+    float:left;
+    margin-top:25px;
+}
+.bg-red {
+    background-color: #cd201f;
+}
+.mr-3, .mx-3 {
+    margin-right: .75rem !important;
+}
+.align-items-center {
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,40,100,.12);
+    border-radius: 3px;
+}
+.p-3 {
+    padding: .75rem !important;
+}
+.bg-yellow {
+    background-color: #f1c40f;
+}
+.bg-grey {
+    background-color: grey;
+}
+.bg-green {
+    background-color:forestgreen;
+}
+.card-title {
+    display: block;
+    margin-top: 0;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    float:left;
+    margin-left:20px;
+}
+.card-header .card-title {
+    margin-bottom: 0;
+}
+.card-options {
+    margin-top: 5px;
+    margin-right: 10px;
+    float: right;
+    font-size:x-large;
+}
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.05);
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.table-state {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+#gridView1{
+    width:100%;
+}
+.w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none ;
+    white-space:normal;
+}
+    .w3-button:disabled {
+        cursor: not-allowed;
+        opacity: 0.3
+    }
+.w3-button {
+    width: 100%;
+    text-align: center;
+    padding: 8px 16px
+
+}
+    .w3-button:hover {
+        color: #000 !important;
+        background-color: #ccc !important
+    }
+.w3-ripple:active {
+    opacity: 0.5
+}
+
+.w3-ripple {
+    transition: opacity 0s
+}
+.w3-black, .w3-hover-black:hover {
+    color: #fff !important;
+    background-color: #000 !important
+}
+.w3-panel:after, .w3-panel:before {
+    content: "";
+    display: table;
+    clear: both
+}
+.w3-panel {
+    padding: 0.01em 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.w3-block {
+    display: block;
+    width: 100%
+}
+td.addTable2 {
+    border: none;
+    padding-left:70px;
+}
+.font-green{
+    color:green;
+}
